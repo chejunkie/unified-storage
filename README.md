@@ -58,6 +58,27 @@ See [Contributing](#contributing) for steps on submitting your contributions.
 
 See the unit test project for in-depth examples. The libraries are designed with Dependency Injection (DI) in mind, but constructor overloads are provided for scenarios without DI.
 
+Unit tests load using json file in a Secrets folder in the solution directory. This way all sensitive information is comming from Azure Key Vault:
+
+```json
+{
+  "Common": {
+    "VaultUrl": "<your vault path here>",
+    "TenantId": "<your tenant ID here>",
+    "ClientId": "<your client ID here>",
+    "ClientSecret": "<your client sercret here>"
+  },
+  "Storages": {
+    "AzureBlob": {
+      "SecretName": "<your secret name here>"
+    },
+    "GoogleDrive": {
+      "SecretName": "<your secret name here>"
+    }
+  }
+}
+```
+
 _For a quick start, refer to the following examples:_
 
 **Local Disk Initialization**
