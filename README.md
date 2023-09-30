@@ -6,7 +6,9 @@
 
 ## Description
 
-Unified Storage provides a consistent interface for interacting with storage solutions across different platforms and services. Whether you're working with local files, Azure Blob storage, or Google Drive, Unified Storage simplifies the process with a unified approach.
+Unified Storage provides a consistent interface for interacting with storage solutions across different platforms and services. Whether you're working with local files, Azure Blob storage, or Google Drive, Unified Storage simplifies the process with a unified approach. 
+
+I did not see any solution for my specific use case scenario, so I created these libraries to fit that need. Essentially, I wanted to be able to swap-in different storage solutions so I needed these different backends to share a common interface. It was more of a headache that I thought, mainly because I over-designed the solution, but it works for my needs without paying for a license for alternative solutions. Hopefully some others find it useful too - contributions welcomed! 
 
 ## Features
 
@@ -15,6 +17,19 @@ Unified Storage provides a consistent interface for interacting with storage sol
 - **Easy-to-Use API**: Simplified methods for common storage operations.
 - **Integration**: Seamlessly integrate with popular .NET dependency injection frameworks.
 - **Extensible**: Easily expand to support additional storage backends.
+
+## Help Wanted!
+
+My use case is limited in scope, so I cannot think or do everything. If you have ideas or want to contribute additional storage integrations, improvements, or other features, please get involved!
+
+Here's how you can help:
+
+1. **New Storage Providers**: Have experience with other storage solutions? Help integrate them!
+2. **Enhancements**: Found a way to improve an existing feature? I'd love to hear about it!
+3. **Documentation**: Good at explaining and writing? Because I am not!
+4. **Spread the Word**: If you find this library helpful, share it with others, star the repo, and help it grow.
+
+See [Contributing](#contributing) for steps on submitting your contributions.
 
 ## Getting Started
 
