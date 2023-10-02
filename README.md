@@ -8,7 +8,7 @@
 
 Unified Storage provides a consistent interface for interacting with storage solutions across different platforms and services. Whether you're working with local files, Azure Blob storage, or Google Drive, Unified Storage simplifies the process with a unified approach. 
 
-I did not see any solution for my specific use case scenario, so I created these libraries to fit that need. Essentially, I wanted to be able to swap-in different storage solutions so I needed these different backends to share a common interface. There are similar pay-to-play alternatives that likely do a better job, but this gave me a chance to look into the different cloud providers and come-up with a FREE solution. Hopefully some others find this work useful too, and decide to contribute in some way. Cheers!
+I did not see any solution for my specific use case scenario, so I created these libraries to fit that need. Essentially, I wanted to be able to swap-in different storage solutions so I needed these different backends to share a common interface. Hopefully some others find this work useful too, and decide to contribute in some way. Cheers!
 
 ## Features
 
